@@ -1,0 +1,8 @@
+./java/nio/file/attribute/FileTime(123)                         |  public static FileTime from(Instant instant) {
+./java/nio/file/attribute/FileTime(230)                         |  public Instant toInstant() {
+./java/nio/file/attribute/FileTime(231)                         |  if (instant == null) {
+./java/nio/file/Files(2812)                                     |  public static BufferedReader newBufferedReader(Path path) throws IOException {
+./java/nio/file/Files(2892)                                     |  public static BufferedWriter newBufferedWriter(Path path, OpenOption... options) throws IOException {
+./java/nio/file/Files(3238)                                     |  public static List<String> readAllLines(Path path) throws IOException {
+./java/nio/file/Files(3389)                                     |  public static Path write(Path path,
+./java/nio/file/Files(3781)                                     |  public static Stream<String> lines(Path path) throws IOException {

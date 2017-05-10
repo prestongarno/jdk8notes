@@ -1,0 +1,11 @@
+./com/sun/crypto/provider/GHASH(45)                             |  final class GHASH {
+./com/sun/crypto/provider/AESCipher(576)                        |  protected void engineUpdateAAD(byte[] src, int offset, int len) {
+./com/sun/crypto/provider/AESCipher(608)                        |  protected void engineUpdateAAD(ByteBuffer src) {
+./com/sun/crypto/provider/FeedbackCipher(229)                   |  void updateAAD(byte[] src, int offset, int len) {
+./com/sun/crypto/provider/FeedbackCipher(238)                   |  int getBufferedLength() {
+./com/sun/crypto/provider/CipherCore(1129)                      |  void updateAAD(byte[] src, int offset, int len) {
+./com/sun/crypto/provider/GaloisCounterMode(47)                 |  final class GaloisCounterMode extends FeedbackCipher {
+./com/sun/crypto/provider/GCTR(47)                              |  final class GCTR {
+./com/sun/crypto/provider/GCMParameters(52)                     |  public final class GCMParameters extends AlgorithmParametersSpi {
+./com/sun/security/jgss/ExtendedGSSCredential(36)               |  public interface ExtendedGSSCredential extends GSSCredential {
+./com/sun/beans/util/Cache(41)                                  |  public abstract class Cache<K,V> {

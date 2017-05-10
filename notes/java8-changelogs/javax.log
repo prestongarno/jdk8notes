@@ -1,0 +1,21 @@
+./javax/net/ssl/SNIHostName(60)                                 |  public final class SNIHostName extends SNIServerName {
+./javax/net/ssl/SSLParameters(293)                              |  public final void setServerNames(List<SNIServerName> serverNames) {
+./javax/net/ssl/SSLParameters(351)                              |  public final List<SNIServerName> getServerNames() {
+./javax/net/ssl/SSLParameters(388)                              |  public final void setSNIMatchers(Collection<SNIMatcher> matchers) {
+./javax/net/ssl/SSLParameters(426)                              |  public final Collection<SNIMatcher> getSNIMatchers() {
+./javax/net/ssl/SSLParameters(450)                              |  public final void setUseCipherSuitesOrder(boolean honorOrder) {
+./javax/net/ssl/SSLParameters(464)                              |  public final boolean getUseCipherSuitesOrder() {
+./javax/net/ssl/SSLSocketFactory(230)                           |  public Socket createSocket(Socket s, InputStream consumed,
+./javax/net/ssl/ExtendedSSLSession(115)                         |  public List<SNIServerName> getRequestedServerNames() {
+./javax/net/ssl/SNIMatcher(51)                                  |  public abstract class SNIMatcher {
+./javax/net/ssl/SNIServerName(47)                               |  public abstract class SNIServerName {
+./javax/net/ssl/StandardConstants(33)                           |  public final class StandardConstants {
+./javax/crypto/spec/PBEParameterSpec(73)                        |  public PBEParameterSpec(byte[] salt, int iterationCount,
+./javax/crypto/spec/PBEParameterSpec(106)                       |  public AlgorithmParameterSpec getParameterSpec() {
+./javax/security/auth/kerberos/KeyTab(141)                      |  public static KeyTab getUnboundInstance(File file) {
+./javax/security/auth/kerberos/KeyTab(160)                      |  public static KeyTab getInstance(KerberosPrincipal princ, File file) {
+./javax/security/auth/kerberos/KeyTab(195)                      |  public static KeyTab getUnboundInstance() {
+./javax/security/auth/kerberos/KeyTab(211)                      |  public static KeyTab getInstance(KerberosPrincipal princ) {
+./javax/security/auth/kerberos/KeyTab(368)                      |  public KerberosPrincipal getPrincipal() {
+./javax/security/auth/kerberos/KeyTab(377)                      |  public boolean isBound() {
+./javax/security/auth/kerberos/KeyTab(378)                      |  return bound;

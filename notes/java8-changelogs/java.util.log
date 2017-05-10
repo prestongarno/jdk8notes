@@ -1,0 +1,355 @@
+./java/util/ArrayDeque(904)                                     |  public Spliterator<E> spliterator() {
+./java/util/ArrayList(1255)                                     |  public Spliterator<E> spliterator() {
+./java/util/ArrayPrefixHelpers(46)                              |  class ArrayPrefixHelpers {
+./java/util/Arrays(1585)                                        |  public static <T> void parallelPrefix(T[] array, BinaryOperator<T> op) {
+./java/util/Arrays(1608)                                        |  public static <T> void parallelPrefix(T[] array, int fromIndex,
+./java/util/Arrays(1631)                                        |  public static void parallelPrefix(long[] array, LongBinaryOperator op) {
+./java/util/Arrays(1653)                                        |  public static void parallelPrefix(long[] array, int fromIndex,
+./java/util/Arrays(1679)                                        |  public static void parallelPrefix(double[] array, DoubleBinaryOperator op) {
+./java/util/Arrays(1701)                                        |  public static void parallelPrefix(double[] array, int fromIndex,
+./java/util/Arrays(1724)                                        |  public static void parallelPrefix(int[] array, IntBinaryOperator op) {
+./java/util/Arrays(1746)                                        |  public static void parallelPrefix(int[] array, int fromIndex,
+./java/util/Arrays(460)                                         |  public static void parallelSort(byte[] a) {
+./java/util/Arrays(4666)                                        |  public static <T> void setAll(T[] array, IntFunction<? extends T> generator) {
+./java/util/Arrays(4687)                                        |  public static <T> void parallelSetAll(T[] array, IntFunction<? extends T> generator) {
+./java/util/Arrays(4705)                                        |  public static void setAll(int[] array, IntUnaryOperator generator) {
+./java/util/Arrays(4725)                                        |  public static void parallelSetAll(int[] array, IntUnaryOperator generator) {
+./java/util/Arrays(4743)                                        |  public static void setAll(long[] array, IntToLongFunction generator) {
+./java/util/Arrays(4763)                                        |  public static void parallelSetAll(long[] array, IntToLongFunction generator) {
+./java/util/Arrays(4781)                                        |  public static void setAll(double[] array, IntToDoubleFunction generator) {
+./java/util/Arrays(4801)                                        |  public static void parallelSetAll(double[] array, IntToDoubleFunction generator) {
+./java/util/Arrays(4818)                                        |  public static <T> Spliterator<T> spliterator(T[] array) {
+./java/util/Arrays(4842)                                        |  public static <T> Spliterator<T> spliterator(T[] array, int startInclusive, int endExclusive) {
+./java/util/Arrays(4858)                                        |  public static Spliterator.OfInt spliterator(int[] array) {
+./java/util/Arrays(4881)                                        |  public static Spliterator.OfInt spliterator(int[] array, int startInclusive, int endExclusive) {
+./java/util/Arrays(4897)                                        |  public static Spliterator.OfLong spliterator(long[] array) {
+./java/util/Arrays(4920)                                        |  public static Spliterator.OfLong spliterator(long[] array, int startInclusive, int endExclusive) {
+./java/util/Arrays(4937)                                        |  public static Spliterator.OfDouble spliterator(double[] array) {
+./java/util/Arrays(4960)                                        |  public static Spliterator.OfDouble spliterator(double[] array, int startInclusive, int endExclusive) {
+./java/util/Arrays(4974)                                        |  public static <T> Stream<T> stream(T[] array) {
+./java/util/Arrays(499)                                         |  public static void parallelSort(byte[] a, int fromIndex, int toIndex) {
+./java/util/Arrays(4993)                                        |  public static <T> Stream<T> stream(T[] array, int startInclusive, int endExclusive) {
+./java/util/Arrays(5005)                                        |  public static IntStream stream(int[] array) {
+./java/util/Arrays(5023)                                        |  public static IntStream stream(int[] array, int startInclusive, int endExclusive) {
+./java/util/Arrays(5035)                                        |  public static LongStream stream(long[] array) {
+./java/util/Arrays(5053)                                        |  public static LongStream stream(long[] array, int startInclusive, int endExclusive) {
+./java/util/Arrays(5065)                                        |  public static DoubleStream stream(double[] array) {
+./java/util/Arrays(5083)                                        |  public static DoubleStream stream(double[] array, int startInclusive, int endExclusive) {
+./java/util/Arrays(530)                                         |  public static void parallelSort(char[] a) {
+./java/util/Arrays(569)                                         |  public static void parallelSort(char[] a, int fromIndex, int toIndex) {
+./java/util/Arrays(600)                                         |  public static void parallelSort(short[] a) {
+./java/util/Arrays(639)                                         |  public static void parallelSort(short[] a, int fromIndex, int toIndex) {
+./java/util/Arrays(670)                                         |  public static void parallelSort(int[] a) {
+./java/util/Arrays(709)                                         |  public static void parallelSort(int[] a, int fromIndex, int toIndex) {
+./java/util/Arrays(740)                                         |  public static void parallelSort(long[] a) {
+./java/util/Arrays(779)                                         |  public static void parallelSort(long[] a, int fromIndex, int toIndex) {
+./java/util/Arrays(818)                                         |  public static void parallelSort(float[] a) {
+./java/util/Arrays(865)                                         |  public static void parallelSort(float[] a, int fromIndex, int toIndex) {
+./java/util/Arrays(904)                                         |  public static void parallelSort(double[] a) {
+./java/util/BitSet(1214)                                        |  public IntStream stream() {
+./java/util/Calendar(3589)                                      |  public final Instant toInstant() {
+./java/util/Calendar(758)                                       |  public static final int NARROW_FORMAT = 4;
+./java/util/Calendar(783)                                       |  public static final int SHORT_FORMAT = 1;
+./java/util/Calendar(795)                                       |  public static final int LONG_FORMAT = 2;
+./java/util/Calendar(821)                                       |  public static final int LONG_STANDALONE = LONG STANDALONE_MASK;
+./java/util/Collection(409)                                     |  default boolean removeIf(Predicate<? super E> filter) {
+./java/util/Collection(561)                                     |  default Spliterator<E> spliterator() {
+./java/util/Collection(580)                                     |  default Stream<E> stream() {
+./java/util/Collection(601)                                     |  default Stream<E> parallelStream() {
+./java/util/Collections(1259)                                   |  public static <T> NavigableSet<T> unmodifiableNavigableSet(NavigableSet<T> s) {
+./java/util/Collections(1889)                                   |  public static <K,V> NavigableMap<K,V> unmodifiableNavigableMap(NavigableMap<K, ? extends V> m) {
+./java/util/Collections(2335)                                   |  public static <T> NavigableSet<T> synchronizedNavigableSet(NavigableSet<T> s) {
+./java/util/Collections(2898)                                   |  public static <K,V> NavigableMap<K,V> synchronizedNavigableMap(NavigableMap<K,V> m) {
+./java/util/Collections(3225)                                   |  public static <E> Queue<E> checkedQueue(Queue<E> queue, Class<E> type) {
+./java/util/Collections(3393)                                   |  public static <E> NavigableSet<E> checkedNavigableSet(NavigableSet<E> s,
+./java/util/ComparableTimSort(175)                              |  static void sort(Object[] a, int lo, int hi, Object[] work, int workBase, int workLen) {
+./java/util/Comparator(184)                                     |  default Comparator<T> reversed() {
+./java/util/Comparator(213)                                     |  default Comparator<T> thenComparing(Comparator<? super T> other) {
+./java/util/Comparator(238)                                     |  default <U> Comparator<T> thenComparing(
+./java/util/Comparator(262)                                     |  default <U extends Comparable<? super U>> Comparator<T> thenComparing(
+./java/util/Comparator(283)                                     |  default Comparator<T> thenComparingInt(ToIntFunction<? super T> keyExtractor) {
+./java/util/Comparator(302)                                     |  default Comparator<T> thenComparingLong(ToLongFunction<? super T> keyExtractor) {
+./java/util/Comparator(321)                                     |  default Comparator<T> thenComparingDouble(ToDoubleFunction<? super T> keyExtractor) {
+./java/util/Comparator(377)                                     |  public static <T> Comparator<T> nullsFirst(Comparator<? super T> comparator) {
+./java/util/Comparator(398)                                     |  public static <T> Comparator<T> nullsLast(Comparator<? super T> comparator) {
+./java/util/Comparator(429)                                     |  public static <T, U> Comparator<T> comparing(
+./java/util/Comparator(464)                                     |  public static <T, U extends Comparable<? super U>> Comparator<T> comparing(
+./java/util/Comparator(487)                                     |  public static <T> Comparator<T> comparingInt(ToIntFunction<? super T> keyExtractor) {
+./java/util/Comparator(508)                                     |  public static <T> Comparator<T> comparingLong(ToLongFunction<? super T> keyExtractor) {
+./java/util/Comparator(529)                                     |  public static<T> Comparator<T> comparingDouble(ToDoubleFunction<? super T> keyExtractor) {
+./java/util/Date(1355)                                          |  public static Date from(Instant instant) {
+./java/util/Date(1373)                                          |  public Instant toInstant() {
+./java/util/DoubleSummaryStatistics(63)                         |  public class DoubleSummaryStatistics implements DoubleConsumer {
+./java/util/GregorianCalendar(3259)                             |  public ZonedDateTime toZonedDateTime() {
+./java/util/GregorianCalendar(3288)                             |  public static GregorianCalendar from(ZonedDateTime zdt) {
+./java/util/GregorianCalendar(849)                              |  public String getCalendarType() {
+./java/util/HashSet(350)                                        |  public Spliterator<E> spliterator() {
+./java/util/IntSummaryStatistics(65)                            |  public class IntSummaryStatistics implements IntConsumer {
+./java/util/Iterator(113)                                       |  default void forEachRemaining(Consumer<? super E> action) {
+./java/util/LinkedHashSet(192)                                  |  public Spliterator<E> spliterator() {
+./java/util/LinkedList(1169)                                    |  public Spliterator<E> spliterator() {
+./java/util/List(409)                                           |  default void replaceAll(UnaryOperator<E> operator) {
+./java/util/List(437)                                           |  default void sort(Comparator<? super E> c) {
+./java/util/List(686)                                           |  default Spliterator<E> spliterator() {
+./java/util/Locale(1122)                                        |  public boolean hasExtensions() {
+./java/util/Locale(1135)                                        |  public Locale stripExtensions() {
+./java/util/Locale(2768)                                        |  public static enum FilteringMode {
+./java/util/Locale(2841)                                        |  public static final class LanguageRange {
+./java/util/Locale(3169)                                        |  public static List<Locale> filter(List<LanguageRange> priorityList,
+./java/util/Locale(3192)                                        |  public static List<Locale> filter(List<LanguageRange> priorityList,
+./java/util/Locale(3216)                                        |  public static List<String> filterTags(List<LanguageRange> priorityList,
+./java/util/Locale(3239)                                        |  public static List<String> filterTags(List<LanguageRange> priorityList,
+./java/util/Locale(3258)                                        |  public static Locale lookup(List<LanguageRange> priorityList,
+./java/util/Locale(3277)                                        |  public static String lookupTag(List<LanguageRange> priorityList,
+./java/util/LongSummaryStatistics(66)                           |  public class LongSummaryStatistics implements LongConsumer, IntConsumer {
+./java/util/Map(1012)                                           |  default V computeIfPresent(K key,
+./java/util/Map(1088)                                           |  default V compute(K key,
+./java/util/Map(1169)                                           |  default V merge(K key, V value,
+./java/util/Map(470)                                            |  public static <K extends Comparable<? super K>, V> Comparator<Map.Entry<K,V>> comparingByKey() {
+./java/util/Map(487)                                            |  public static <K, V extends Comparable<? super V>> Comparator<Map.Entry<K,V>> comparingByValue() {
+./java/util/Map(505)                                            |  public static <K, V> Comparator<Map.Entry<K, V>> comparingByKey(Comparator<? super K> cmp) {
+./java/util/Map(524)                                            |  public static <K, V> Comparator<Map.Entry<K, V>> comparingByValue(Comparator<? super V> cmp) {
+./java/util/Map(586)                                            |  default V getOrDefault(Object key, V defaultValue) {
+./java/util/Map(618)                                            |  default void forEach(BiConsumer<? super K, ? super V> action) {
+./java/util/Map(673)                                            |  default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function) {
+./java/util/Map(741)                                            |  default V putIfAbsent(K key, V value) {
+./java/util/Map(784)                                            |  default boolean remove(Object key, Object value) {
+./java/util/Map(836)                                            |  default boolean replace(K key, V oldValue, V newValue) {
+./java/util/Map(884)                                            |  default V replace(K key, V value) {
+./java/util/Map(951)                                            |  default V computeIfAbsent(K key,
+./java/util/Objects(246)                                        |  public static boolean isNull(Object obj) {
+./java/util/Objects(264)                                        |  public static boolean nonNull(Object obj) {
+./java/util/Objects(288)                                        |  public static <T> T requireNonNull(T obj, Supplier<String> messageSupplier) {
+./java/util/Optional(50)                                        |  public final class Optional<T> {
+./java/util/OptionalDouble(49)                                  |  public final class OptionalDouble {
+./java/util/OptionalInt(49)                                     |  public final class OptionalInt {
+./java/util/OptionalLong(49)                                    |  public final class OptionalLong {
+./java/util/PrimitiveIterator(160)                              |  public static interface OfLong extends PrimitiveIterator<Long, LongConsumer> {
+./java/util/PrimitiveIterator(233)                              |  public static interface OfDouble extends PrimitiveIterator<Double, DoubleConsumer> {
+./java/util/PrimitiveIterator(68)                               |  public interface PrimitiveIterator<T, T_CONS> extends Iterator<T> {
+./java/util/PrimitiveIterator(86)                               |  public static interface OfInt extends PrimitiveIterator<Integer, IntConsumer> {
+./java/util/PriorityQueue(147)                                  |  public PriorityQueue(Comparator<? super E> comparator) {
+./java/util/PriorityQueue(811)                                  |  public final Spliterator<E> spliterator() {
+./java/util/Random(618)                                         |  public IntStream ints(long streamSize) {
+./java/util/Random(640)                                         |  public IntStream ints() {
+./java/util/Random(679)                                         |  public IntStream ints(long streamSize, int randomNumberOrigin,
+./java/util/Random(724)                                         |  public IntStream ints(int randomNumberOrigin, int randomNumberBound) {
+./java/util/Random(746)                                         |  public LongStream longs(long streamSize) {
+./java/util/Random(768)                                         |  public LongStream longs() {
+./java/util/Random(812)                                         |  public LongStream longs(long streamSize, long randomNumberOrigin,
+./java/util/Random(862)                                         |  public LongStream longs(long randomNumberOrigin, long randomNumberBound) {
+./java/util/Random(885)                                         |  public DoubleStream doubles(long streamSize) {
+./java/util/Random(908)                                         |  public DoubleStream doubles() {
+./java/util/Random(942)                                         |  public DoubleStream doubles(long streamSize, double randomNumberOrigin,
+./java/util/Random(981)                                         |  public DoubleStream doubles(double randomNumberOrigin, double randomNumberBound) {
+./java/util/ResourceBundle(334)                                 |  public String getBaseBundleName() {
+./java/util/Set(410)                                            |  default Spliterator<E> spliterator() {
+./java/util/SortedSet(255)                                      |  default Spliterator<E> spliterator() {
+./java/util/Spliterator(296)                                    |  public interface Spliterator<T> {
+./java/util/Spliterator(599)                                    |  public interface OfPrimitive<T, T_CONS, T_SPLITR extends Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>>
+./java/util/Spliterator(644)                                    |  public interface OfInt extends OfPrimitive<Integer, IntConsumer, OfInt> {
+./java/util/Spliterator(708)                                    |  public interface OfLong extends OfPrimitive<Long, LongConsumer, OfLong> {
+./java/util/Spliterator(772)                                    |  public interface OfDouble extends OfPrimitive<Double, DoubleConsumer, OfDouble> {
+./java/util/Spliterators(1256)                                  |  public static abstract class AbstractSpliterator<T> implements Spliterator<T> {
+./java/util/Spliterators(1379)                                  |  public static abstract class AbstractIntSpliterator implements Spliterator.OfInt {
+./java/util/Spliterators(1489)                                  |  public static abstract class AbstractLongSpliterator implements Spliterator.OfLong {
+./java/util/Spliterators(1599)                                  |  public static abstract class AbstractDoubleSpliterator implements Spliterator.OfDouble {
+./java/util/Spliterators(41)                                    |  public final class Spliterators {
+./java/util/TimSort(206)                                        |  static <T> void sort(T[] a, int lo, int hi, Comparator<? super T> c,
+./java/util/TimeZone(528)                                       |  public static TimeZone getTimeZone(ZoneId zoneId) {
+./java/util/TimeZone(546)                                       |  public ZoneId toZoneId() {
+./java/util/TreeSet(555)                                        |  public Spliterator<E> spliterator() {
+./java/util/Tripwire(48)                                        |  final class Tripwire {
+./java/util/Vector(1340)                                        |  public Spliterator<E> spliterator() {
+./java/util/concurrent/ArrayBlockingQueue(1411)                 |  public Spliterator<E> spliterator() {
+./java/util/concurrent/CompletableFuture(111)                   |  public class CompletableFuture<T> implements Future<T>, CompletionStage<T> {
+./java/util/concurrent/CompletableFuture(419)                   |  public static interface AsynchronousCompletionTask {
+./java/util/concurrent/CompletionStage(126)                     |  public interface CompletionStage<T> {
+./java/util/concurrent/ConcurrentHashMap(2106)                  |  public long mappingCount() {
+./java/util/concurrent/ConcurrentHashMap(2119)                  |  public static <K> KeySetView<K,Boolean> newKeySet() {
+./java/util/concurrent/ConcurrentHashMap(2136)                  |  public static <K> KeySetView<K,Boolean> newKeySet(int initialCapacity) {
+./java/util/concurrent/ConcurrentHashMap(3652)                  |  public void forEach(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3673)                  |  public <U> void forEach(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3699)                  |  public <U> U search(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3723)                  |  public <U> U reduce(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3748)                  |  public double reduceToDouble(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3774)                  |  public long reduceToLong(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3800)                  |  public int reduceToInt(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3819)                  |  public void forEachKey(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3840)                  |  public <U> void forEachKey(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3866)                  |  public <U> U searchKeys(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3885)                  |  public K reduceKeys(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3909)                  |  public <U> U reduceKeys(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3934)                  |  public double reduceKeysToDouble(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3960)                  |  public long reduceKeysToLong(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(3986)                  |  public int reduceKeysToInt(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4005)                  |  public void forEachValue(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4027)                  |  public <U> void forEachValue(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4053)                  |  public <U> U searchValues(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4071)                  |  public V reduceValues(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4095)                  |  public <U> U reduceValues(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4120)                  |  public double reduceValuesToDouble(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4146)                  |  public long reduceValuesToLong(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4172)                  |  public int reduceValuesToInt(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4191)                  |  public void forEachEntry(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4211)                  |  public <U> void forEachEntry(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4237)                  |  public <U> U searchEntries(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4255)                  |  public Map.Entry<K,V> reduceEntries(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4279)                  |  public <U> U reduceEntries(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4304)                  |  public double reduceEntriesToDouble(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4330)                  |  public long reduceEntriesToLong(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4356)                  |  public int reduceEntriesToInt(long parallelismThreshold,
+./java/util/concurrent/ConcurrentHashMap(4536)                  |  public static class KeySetView<K,V> extends CollectionView<K,V,K>
+./java/util/concurrent/ConcurrentLinkedDeque(1500)              |  public Spliterator<E> spliterator() {
+./java/util/concurrent/ConcurrentLinkedQueue(903)               |  public Spliterator<E> spliterator() {
+./java/util/concurrent/ConcurrentMap(275)                       |  default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function) {
+./java/util/concurrent/ConcurrentMap(362)                       |  default V computeIfPresent(K key,
+./java/util/concurrent/ConcurrentMap(78)                        |  default V getOrDefault(Object key, V defaultValue) {
+./java/util/concurrent/ConcurrentSkipListMap(1560)              |  public V getOrDefault(Object key, V defaultValue) {
+./java/util/concurrent/ConcurrentSkipListMap(1676)              |  public V computeIfAbsent(K key,
+./java/util/concurrent/ConcurrentSkipListMap(1700)              |  public V computeIfPresent(K key,
+./java/util/concurrent/ConcurrentSkipListMap(1733)              |  public V compute(K key,
+./java/util/concurrent/ConcurrentSkipListMap(1773)              |  public V merge(K key, V value,
+./java/util/concurrent/CopyOnWriteArrayList(1124)               |  public Spliterator<E> spliterator() {
+./java/util/concurrent/CopyOnWriteArraySet(422)                 |  public Spliterator<E> spliterator() {
+./java/util/concurrent/Executors(109)                           |  public static ExecutorService newWorkStealingPool(int parallelism) {
+./java/util/concurrent/Executors(124)                           |  public static ExecutorService newWorkStealingPool() {
+./java/util/concurrent/ForkJoinPool(2500)                       |  public static ForkJoinPool commonPool() {
+./java/util/concurrent/ForkJoinPool(2682)                       |  public static int getCommonPoolParallelism() {
+./java/util/concurrent/ForkJoinTask(1331)                       |  public final short getForkJoinTaskTag() {
+./java/util/concurrent/ForkJoinTask(1342)                       |  public final short setForkJoinTaskTag(short tag) {
+./java/util/concurrent/ForkJoinTask(1364)                       |  public final boolean compareAndSetForkJoinTaskTag(short e, short tag) {
+./java/util/concurrent/ForkJoinTask(978)                        |  public final void quietlyComplete() {
+./java/util/concurrent/LinkedBlockingDeque(1281)                |  public Spliterator<E> spliterator() {
+./java/util/concurrent/LinkedBlockingQueue(988)                 |  public Spliterator<E> spliterator() {
+./java/util/concurrent/LinkedTransferQueue(1038)                |  public Spliterator<E> spliterator() {
+./java/util/concurrent/PriorityBlockingQueue(1026)              |  public Spliterator<E> spliterator() {
+./java/util/concurrent/SynchronousQueue(1078)                   |  public Spliterator<E> spliterator() {
+./java/util/concurrent/ThreadLocalRandom(559)                   |  public IntStream ints(long streamSize) {
+./java/util/concurrent/ThreadLocalRandom(578)                   |  public IntStream ints() {
+./java/util/concurrent/ThreadLocalRandom(600)                   |  public IntStream ints(long streamSize, int randomNumberOrigin,
+./java/util/concurrent/ThreadLocalRandom(628)                   |  public IntStream ints(int randomNumberOrigin, int randomNumberBound) {
+./java/util/concurrent/ThreadLocalRandom(647)                   |  public LongStream longs(long streamSize) {
+./java/util/concurrent/ThreadLocalRandom(666)                   |  public LongStream longs() {
+./java/util/concurrent/ThreadLocalRandom(688)                   |  public LongStream longs(long streamSize, long randomNumberOrigin,
+./java/util/concurrent/ThreadLocalRandom(716)                   |  public LongStream longs(long randomNumberOrigin, long randomNumberBound) {
+./java/util/concurrent/ThreadLocalRandom(736)                   |  public DoubleStream doubles(long streamSize) {
+./java/util/concurrent/ThreadLocalRandom(756)                   |  public DoubleStream doubles() {
+./java/util/concurrent/ThreadLocalRandom(779)                   |  public DoubleStream doubles(long streamSize, double randomNumberOrigin,
+./java/util/concurrent/ThreadLocalRandom(807)                   |  public DoubleStream doubles(double randomNumberOrigin, double randomNumberBound) {
+./java/util/concurrent/atomic/AtomicInteger(218)                |  public final int getAndUpdate(IntUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicInteger(237)                |  public final int updateAndGet(IntUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicInteger(260)                |  public final int getAndAccumulate(int x,
+./java/util/concurrent/atomic/AtomicInteger(284)                |  public final int accumulateAndGet(int x,
+./java/util/concurrent/atomic/AtomicIntegerArray(262)           |  public final int getAndUpdate(int i, IntUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicIntegerArray(283)           |  public final int updateAndGet(int i, IntUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicIntegerArray(308)           |  public final int getAndAccumulate(int i, int x,
+./java/util/concurrent/atomic/AtomicIntegerArray(334)           |  public final int accumulateAndGet(int i, int x,
+./java/util/concurrent/atomic/AtomicIntegerFieldUpdater(286)    |  public final int getAndUpdate(T obj, IntUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicIntegerFieldUpdater(306)    |  public final int updateAndGet(T obj, IntUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicIntegerFieldUpdater(330)    |  public final int getAndAccumulate(T obj, int x,
+./java/util/concurrent/atomic/AtomicIntegerFieldUpdater(355)    |  public final int accumulateAndGet(T obj, int x,
+./java/util/concurrent/atomic/AtomicLong(232)                   |  public final long getAndUpdate(LongUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicLong(251)                   |  public final long updateAndGet(LongUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicLong(274)                   |  public final long getAndAccumulate(long x,
+./java/util/concurrent/atomic/AtomicLong(298)                   |  public final long accumulateAndGet(long x,
+./java/util/concurrent/atomic/AtomicLongArray(260)              |  public final long getAndUpdate(int i, LongUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicLongArray(281)              |  public final long updateAndGet(int i, LongUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicLongArray(306)              |  public final long getAndAccumulate(int i, long x,
+./java/util/concurrent/atomic/AtomicLongArray(332)              |  public final long accumulateAndGet(int i, long x,
+./java/util/concurrent/atomic/AtomicLongFieldUpdater(289)       |  public final long getAndUpdate(T obj, LongUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicLongFieldUpdater(309)       |  public final long updateAndGet(T obj, LongUnaryOperator updateFunction) {
+./java/util/concurrent/atomic/AtomicLongFieldUpdater(333)       |  public final long getAndAccumulate(T obj, long x,
+./java/util/concurrent/atomic/AtomicLongFieldUpdater(358)       |  public final long accumulateAndGet(T obj, long x,
+./java/util/concurrent/atomic/AtomicReference(156)              |  public final V getAndUpdate(UnaryOperator<V> updateFunction) {
+./java/util/concurrent/atomic/AtomicReference(175)              |  public final V updateAndGet(UnaryOperator<V> updateFunction) {
+./java/util/concurrent/atomic/AtomicReference(198)              |  public final V getAndAccumulate(V x,
+./java/util/concurrent/atomic/AtomicReference(222)              |  public final V accumulateAndGet(V x,
+./java/util/concurrent/atomic/AtomicReferenceArray(213)         |  public final E getAndUpdate(int i, UnaryOperator<E> updateFunction) {
+./java/util/concurrent/atomic/AtomicReferenceArray(234)         |  public final E updateAndGet(int i, UnaryOperator<E> updateFunction) {
+./java/util/concurrent/atomic/AtomicReferenceArray(259)         |  public final E getAndAccumulate(int i, E x,
+./java/util/concurrent/atomic/AtomicReferenceArray(285)         |  public final E accumulateAndGet(int i, E x,
+./java/util/concurrent/atomic/AtomicReferenceFieldUpdater(206)  |  public final V getAndUpdate(T obj, UnaryOperator<V> updateFunction) {
+./java/util/concurrent/atomic/AtomicReferenceFieldUpdater(226)  |  public final V updateAndGet(T obj, UnaryOperator<V> updateFunction) {
+./java/util/concurrent/atomic/AtomicReferenceFieldUpdater(250)  |  public final V getAndAccumulate(T obj, V x,
+./java/util/concurrent/atomic/AtomicReferenceFieldUpdater(275)  |  public final V accumulateAndGet(T obj, V x,
+./java/util/function/BiPredicate(43)                            |  public interface BiPredicate<T, U> {
+./java/util/function/DoubleConsumer(42)                         |  public interface DoubleConsumer {
+./java/util/function/DoubleFunction(41)                         |  public interface DoubleFunction<R> {
+./java/util/function/DoubleSupplier(41)                         |  public interface DoubleSupplier {
+./java/util/function/DoubleToIntFunction(39)                    |  public interface DoubleToIntFunction {
+./java/util/function/DoubleToLongFunction(39)                   |  public interface DoubleToLongFunction {
+./java/util/function/DoubleUnaryOperator(41)                    |  public interface DoubleUnaryOperator {
+./java/util/function/Function(41)                               |  public interface Function<T, R> {
+./java/util/function/IntFunction(41)                            |  public interface IntFunction<R> {
+./java/util/function/IntPredicate(41)                           |  public interface IntPredicate {
+./java/util/function/LongConsumer(42)                           |  public interface LongConsumer {
+./java/util/function/LongFunction(41)                           |  public interface LongFunction<R> {
+./java/util/function/LongSupplier(41)                           |  public interface LongSupplier {
+./java/util/function/LongToDoubleFunction(39)                   |  public interface LongToDoubleFunction {
+./java/util/function/LongToIntFunction(39)                      |  public interface LongToIntFunction {
+./java/util/function/LongUnaryOperator(41)                      |  public interface LongUnaryOperator {
+./java/util/function/ObjDoubleConsumer(43)                      |  public interface ObjDoubleConsumer<T> {
+./java/util/function/ToDoubleBiFunction(42)                     |  public interface ToDoubleBiFunction<T, U> {
+./java/util/function/ToIntBiFunction(42)                        |  public interface ToIntBiFunction<T, U> {
+./java/util/function/ToIntFunction(40)                          |  public interface ToIntFunction<T> {
+./java/util/function/ToLongBiFunction(42)                       |  public interface ToLongBiFunction<T, U> {
+./java/util/function/UnaryOperator(41)                          |  public interface UnaryOperator<T> extends Function<T, T> {
+./java/util/logging/Logger(1222)                                |  public void logrb(Level level, String sourceClass, String sourceMethod,
+./java/util/logging/Logger(1303)                                |  public void logrb(Level level, String sourceClass, String sourceMethod,
+./java/util/logging/Logger(1949)                                |  public void setResourceBundle(ResourceBundle bundle) {
+./java/util/regex/Matcher(400)                                  |  public int start(String name) {
+./java/util/regex/Matcher(472)                                  |  public int end(String name) {
+./java/util/spi/LocaleServiceProvider(192)                      |  public boolean isSupportedLocale(Locale locale) {
+./java/util/spi/TimeZoneNameProvider(107)                       |  public String getGenericDisplayName(String ID, int style, Locale locale) {
+./java/util/stream/AbstractPipeline(72)                         |  abstract class AbstractPipeline<E_IN, E_OUT, S extends BaseStream<E_OUT, S>>
+./java/util/stream/AbstractSpinedBuffer(33)                     |  abstract class AbstractSpinedBuffer {
+./java/util/stream/Collector(197)                               |  public interface Collector<T, A, R> {
+./java/util/stream/Collectors(104)                              |  public final class Collectors {
+./java/util/stream/DistinctOps(42)                              |  final class DistinctOps {
+./java/util/stream/DoublePipeline(54)                           |  abstract class DoublePipeline<E_IN>
+./java/util/stream/DoublePipeline(585)                          |  abstract static class StatelessOp<E_IN> extends DoublePipeline<E_IN> {
+./java/util/stream/DoublePipeline(613)                          |  abstract static class StatefulOp<E_IN> extends DoublePipeline<E_IN> {
+./java/util/stream/DoubleStream(851)                            |  public interface Builder extends DoubleConsumer {
+./java/util/stream/FindOps(45)                                  |  final class FindOps {
+./java/util/stream/ForEachOps(55)                               |  final class ForEachOps {
+./java/util/stream/IntPipeline(514)                             |  static class Head<E_IN> extends IntPipeline<E_IN> {
+./java/util/stream/IntPipeline(53)                              |  abstract class IntPipeline<E_IN>
+./java/util/stream/IntPipeline(581)                             |  abstract static class StatelessOp<E_IN> extends IntPipeline<E_IN> {
+./java/util/stream/IntPipeline(608)                             |  abstract static class StatefulOp<E_IN> extends IntPipeline<E_IN> {
+./java/util/stream/IntStream(869)                               |  public interface Builder extends IntConsumer {
+./java/util/stream/LongPipeline(497)                            |  static class Head<E_IN> extends LongPipeline<E_IN> {
+./java/util/stream/LongPipeline(54)                             |  abstract class LongPipeline<E_IN>
+./java/util/stream/LongPipeline(561)                            |  abstract static class StatelessOp<E_IN> extends LongPipeline<E_IN> {
+./java/util/stream/LongPipeline(588)                            |  abstract static class StatefulOp<E_IN> extends LongPipeline<E_IN> {
+./java/util/stream/LongStream(877)                              |  public interface Builder extends LongConsumer {
+./java/util/stream/MatchOps(42)                                 |  final class MatchOps {
+./java/util/stream/Node(60)                                     |  interface Node<T> {
+./java/util/stream/Nodes(52)                                    |  final class Nodes {
+./java/util/stream/PipelineHelper(55)                           |  abstract class PipelineHelper<P_OUT> {
+./java/util/stream/ReduceOps(51)                                |  final class ReduceOps {
+./java/util/stream/ReferencePipeline(539)                       |  static class Head<E_IN, E_OUT> extends ReferencePipeline<E_IN, E_OUT> {
+./java/util/stream/ReferencePipeline(57)                        |  abstract class ReferencePipeline<P_IN, P_OUT>
+./java/util/stream/ReferencePipeline(605)                       |  abstract static class StatelessOp<E_IN, E_OUT>
+./java/util/stream/ReferencePipeline(635)                       |  abstract static class StatefulOp<E_IN, E_OUT>
+./java/util/stream/Sink(117)                                    |  interface Sink<T> extends Consumer<T> {
+./java/util/stream/SliceOps(37)                                 |  final class SliceOps {
+./java/util/stream/SortedOps(41)                                |  final class SortedOps {
+./java/util/stream/SpinedBuffer(56)                             |  class SpinedBuffer<E>
+./java/util/stream/Stream(1102)                                 |  public interface Builder<T> extends Consumer<T> {
+./java/util/stream/StreamOpFlag(204)                            |  enum StreamOpFlag {
+./java/util/stream/StreamSpliterators(48)                       |  class StreamSpliterators {
+./java/util/stream/StreamSupport(40)                            |  public final class StreamSupport {
+./java/util/stream/Streams(44)                                  |  final class Streams {
+./java/util/stream/TerminalOp(45)                               |  interface TerminalOp<E_IN, R> {
+./java/util/stream/Tripwire(48)                                 |  final class Tripwire {
+./java/util/stream/package info(737)                            |  package java.util.stream;
+./java/util/zip/Adler32(104)                                    |  public void update(ByteBuffer buffer) {
+./java/util/zip/CRC32(101)                                      |  public void update(ByteBuffer buffer) {
+./java/util/zip/ZipEntry(182)                                   |  public ZipEntry setLastModifiedTime(FileTime time) {
+./java/util/zip/ZipEntry(205)                                   |  public FileTime getLastModifiedTime() {
+./java/util/zip/ZipEntry(229)                                   |  public ZipEntry setLastAccessTime(FileTime time) {
+./java/util/zip/ZipEntry(247)                                   |  public FileTime getLastAccessTime() {
+./java/util/zip/ZipEntry(267)                                   |  public ZipEntry setCreationTime(FileTime time) {
+./java/util/zip/ZipEntry(284)                                   |  public FileTime getCreationTime() {
+./java/util/zip/ZipFile(550)                                    |  public Stream<? extends ZipEntry> stream() {

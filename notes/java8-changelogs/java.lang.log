@@ -1,0 +1,144 @@
+./java/lang/StringBuffer(310)                                   |  synchronized StringBuffer append(AbstractStringBuilder asb) {
+./java/lang/reflect/AnnotatedTypeVariable(35)                   |  public interface AnnotatedTypeVariable extends AnnotatedType {
+./java/lang/reflect/AnnotatedWildcardType(35)                   |  public interface AnnotatedWildcardType extends AnnotatedType {
+./java/lang/reflect/AnnotatedElement(324)                       |  default <T extends Annotation> T[] getAnnotationsByType(Class<T> annotationClass) {
+./java/lang/reflect/AnnotatedElement(368)                       |  default <T extends Annotation> T getDeclaredAnnotation(Class<T> annotationClass) {
+./java/lang/reflect/AnnotatedElement(425)                       |  default <T extends Annotation> T[] getDeclaredAnnotationsByType(Class<T> annotationClass) {
+./java/lang/reflect/Type(45)                                    |  default String getTypeName() {
+./java/lang/reflect/Executable(43)                              |  public abstract class Executable extends AccessibleObject
+./java/lang/reflect/Executable(529)                             |  public <T extends Annotation> T[] getAnnotationsByType(Class<T> annotationClass) {
+./java/lang/reflect/Executable(572)                             |  public abstract AnnotatedType getAnnotatedReturnType();
+./java/lang/reflect/Executable(582)                             |  AnnotatedType getAnnotatedReturnType0(Type returnType) {
+./java/lang/reflect/Executable(613)                             |  public AnnotatedType getAnnotatedReceiverType() {
+./java/lang/reflect/Executable(641)                             |  public AnnotatedType[] getAnnotatedParameterTypes() {
+./java/lang/reflect/Executable(667)                             |  public AnnotatedType[] getAnnotatedExceptionTypes() {
+./java/lang/reflect/AnnotatedType(36)                           |  public interface AnnotatedType extends AnnotatedElement {
+./java/lang/reflect/Constructor(536)                            |  public AnnotatedType getAnnotatedReturnType() {
+./java/lang/reflect/Parameter(42)                               |  public final class Parameter implements AnnotatedElement {
+./java/lang/reflect/AnnotatedParameterizedType(35)              |  public interface AnnotatedParameterizedType extends AnnotatedType {
+./java/lang/reflect/MalformedParametersException(51)            |  public class MalformedParametersException extends RuntimeException {
+./java/lang/reflect/Field(1123)                                 |  public <T extends Annotation> T[] getAnnotationsByType(Class<T> annotationClass) {
+./java/lang/reflect/Field(1158)                                 |  public AnnotatedType getAnnotatedType() {
+./java/lang/reflect/AccessibleObject(198)                       |  public <T extends Annotation> T[] getAnnotationsByType(Class<T> annotationClass) {
+./java/lang/reflect/AccessibleObject(226)                       |  public <T extends Annotation> T[] getDeclaredAnnotationsByType(Class<T> annotationClass) {
+./java/lang/reflect/Modifier(493)                               |  public static int parameterModifiers() {
+./java/lang/reflect/TypeVariable(101)                           |  AnnotatedType[] getAnnotatedBounds();
+./java/lang/reflect/Method(529)                                 |  public boolean isDefault() {
+./java/lang/reflect/Method(632)                                 |  public AnnotatedType getAnnotatedReturnType() {
+./java/lang/reflect/AnnotatedArrayType(36)                      |  public interface AnnotatedArrayType extends AnnotatedType {
+./java/lang/Boolean(212)                                        |  public static int hashCode(boolean value) {
+./java/lang/Boolean(304)                                        |  public static boolean logicalAnd(boolean a, boolean b) {
+./java/lang/Boolean(318)                                        |  public static boolean logicalOr(boolean a, boolean b) {
+./java/lang/Boolean(332)                                        |  public static boolean logicalXor(boolean a, boolean b) {
+./java/lang/management/LockInfo(135)                            |  public static LockInfo from(CompositeData cd) {
+./java/lang/Long(172)                                           |  public static String toUnsignedString(long i, int radix) {
+./java/lang/Long(416)                                           |  public static String toUnsignedString(long i) {
+./java/lang/Long(677)                                           |  public static long parseUnsignedLong(String s, int radix)
+./java/lang/Long(745)                                           |  public static long parseUnsignedLong(String s) throws NumberFormatException {
+./java/lang/Long(1060)                                          |  public static int hashCode(long value) {
+./java/lang/Long(1267)                                          |  public static int compareUnsigned(long x, long y) {
+./java/lang/Long(1290)                                          |  public static long divideUnsigned(long dividend, long divisor) {
+./java/lang/Long(1323)                                          |  public static long remainderUnsigned(long dividend, long divisor) {
+./java/lang/Long(1351)                                          |  public static final int BYTES = SIZE / Byte.SIZE;
+./java/lang/Long(1586)                                          |  public static long sum(long a, long b) {
+./java/lang/Long(1600)                                          |  public static long max(long a, long b) {
+./java/lang/Long(1614)                                          |  public static long min(long a, long b) {
+./java/lang/Integer(186)                                        |  public static String toUnsignedString(int i, int radix) {
+./java/lang/Integer(420)                                        |  public static String toUnsignedString(int i) {
+./java/lang/Integer(661)                                        |  public static int parseUnsignedInt(String s, int radix)
+./java/lang/Integer(710)                                        |  public static int parseUnsignedInt(String s) throws NumberFormatException {
+./java/lang/Integer(1249)                                       |  public static int compareUnsigned(int x, int y) {
+./java/lang/Integer(1270)                                       |  public static long toUnsignedLong(int x) {
+./java/lang/Integer(1292)                                       |  public static int divideUnsigned(int dividend, int divisor) {
+./java/lang/Integer(1309)                                       |  public static int remainderUnsigned(int dividend, int divisor) {
+./java/lang/Integer(1331)                                       |  public static final int BYTES = SIZE / Byte.SIZE;
+./java/lang/Integer(1561)                                       |  public static int sum(int a, int b) {
+./java/lang/Integer(1575)                                       |  public static int max(int a, int b) {
+./java/lang/Integer(1589)                                       |  public static int min(int a, int b) {
+./java/lang/Package(408)                                        |  public  <A extends Annotation> A[] getAnnotationsByType(Class<A> annotationClass) {
+./java/lang/Package(433)                                        |  public <A extends Annotation> A[] getDeclaredAnnotationsByType(Class<A> annotationClass) {
+./java/lang/Math(786)                                           |  public static int addExact(int x, int y) {
+./java/lang/Math(805)                                           |  public static long addExact(long x, long y) {
+./java/lang/Math(824)                                           |  public static int subtractExact(int x, int y) {
+./java/lang/Math(844)                                           |  public static long subtractExact(long x, long y) {
+./java/lang/Math(864)                                           |  public static int multiplyExact(int x, int y) {
+./java/lang/Math(882)                                           |  public static long multiplyExact(long x, long y) {
+./java/lang/Math(907)                                           |  public static int incrementExact(int a) {
+./java/lang/Math(924)                                           |  public static long incrementExact(long a) {
+./java/lang/Math(941)                                           |  public static int decrementExact(int a) {
+./java/lang/Math(958)                                           |  public static long decrementExact(long a) {
+./java/lang/Math(975)                                           |  public static int negateExact(int a) {
+./java/lang/Math(992)                                           |  public static long negateExact(long a) {
+./java/lang/Math(1009)                                          |  public static int toIntExact(long value) {
+./java/lang/Math(1051)                                          |  public static int floorDiv(int x, int y) {
+./java/lang/Math(1085)                                          |  public static long floorDiv(long x, long y) {
+./java/lang/Math(1138)                                          |  public static int floorMod(int x, int y) {
+./java/lang/Math(1165)                                          |  public static long floorMod(long x, long y) {
+./java/lang/Math(2138)                                          |  public static double nextDown(double d) {
+./java/lang/Math(2175)                                          |  public static float nextDown(float f) {
+./java/lang/Double(130)                                         |  public static final int BYTES = SIZE / Byte.SIZE;
+./java/lang/Double(575)                                         |  public static boolean isFinite(double d) {
+./java/lang/Double(753)                                         |  public static int hashCode(double value) {
+./java/lang/Double(1024)                                        |  public static double sum(double a, double b) {
+./java/lang/Double(1038)                                        |  public static double max(double a, double b) {
+./java/lang/Double(1052)                                        |  public static double min(double a, double b) {
+./java/lang/Iterable(72)                                        |  default void forEach(Consumer<? super T> action) {
+./java/lang/Iterable(100)                                       |  default Spliterator<T> spliterator() {
+./java/lang/CharSequence(130)                                   |  public default IntStream chars() {
+./java/lang/CharSequence(177)                                   |  public default IntStream codePoints() {
+./java/lang/invoke/MethodHandles(139)                           |  public static <T extends Member> T
+./java/lang/invoke/MethodHandles(1331)                          |  public MethodHandleInfo revealDirect(MethodHandle target) {
+./java/lang/invoke/MethodHandleInfo(125)                        |  public
+./java/lang/Class(181)                                          |  public String toGenericString() {
+./java/lang/Class(1331)                                         |  public String getTypeName() {
+./java/lang/Class(3322)                                         |  public <A extends Annotation> A[] getAnnotationsByType(Class<A> annotationClass) {
+./java/lang/Class(3355)                                         |  public <A extends Annotation> A[] getDeclaredAnnotationsByType(Class<A> annotationClass) {
+./java/lang/Class(3481)                                         |  public AnnotatedType getAnnotatedSuperclass() {
+./java/lang/Class(3524)                                         |  public AnnotatedType[] getAnnotatedInterfaces() {
+./java/lang/Process(186)                                        |  public boolean waitFor(long timeout, TimeUnit unit)
+./java/lang/Process(244)                                        |  public Process destroyForcibly() {
+./java/lang/Process(257)                                        |  public boolean isAlive() {
+./java/lang/String(2437)                                        |  public static String join(CharSequence delimiter, CharSequence... elements) {
+./java/lang/String(2485)                                        |  public static String join(CharSequence delimiter,
+./java/lang/Character(2472)                                     |  public static final UnicodeBlock ARABIC_EXTENDED_A =
+./java/lang/Character(2481)                                     |  public static final UnicodeBlock SUNDANESE_SUPPLEMENT =
+./java/lang/Character(2490)                                     |  public static final UnicodeBlock MEETEI_MAYEK_EXTENSIONS =
+./java/lang/Character(2499)                                     |  public static final UnicodeBlock MEROITIC_HIEROGLYPHS =
+./java/lang/Character(2508)                                     |  public static final UnicodeBlock MEROITIC_CURSIVE =
+./java/lang/Character(2517)                                     |  public static final UnicodeBlock SORA_SOMPENG =
+./java/lang/Character(2526)                                     |  public static final UnicodeBlock CHAKMA =
+./java/lang/Character(2533)                                     |  public static final UnicodeBlock SHARADA =
+./java/lang/Character(2540)                                     |  public static final UnicodeBlock TAKRI =
+./java/lang/Character(2547)                                     |  public static final UnicodeBlock MIAO =
+./java/lang/Character(2555)                                     |  public static final UnicodeBlock ARABIC_MATHEMATICAL_ALPHABETIC_SYMBOLS =
+./java/lang/Character(7172)                                     |  public static final int BYTES = SIZE / Byte.SIZE;
+./java/lang/Byte(405)                                           |  public static int hashCode(byte value) {
+./java/lang/Byte(477)                                           |  public static int toUnsignedInt(byte x) {
+./java/lang/Byte(497)                                           |  public static long toUnsignedLong(byte x) {
+./java/lang/Byte(516)                                           |  public static final int BYTES = SIZE / Byte.SIZE;
+./java/lang/ThreadLocal(140)                                    |  public static <S> ThreadLocal<S> withInitial(Supplier<? extends S> supplier) {
+./java/lang/StrictMath(723)                                     |  public static int addExact(int x, int y) {
+./java/lang/StrictMath(738)                                     |  public static long addExact(long x, long y) {
+./java/lang/StrictMath(753)                                     |  public static int subtractExact(int x, int y) {
+./java/lang/StrictMath(768)                                     |  public static long subtractExact(long x, long y) {
+./java/lang/StrictMath(783)                                     |  public static int multiplyExact(int x, int y) {
+./java/lang/StrictMath(798)                                     |  public static long multiplyExact(long x, long y) {
+./java/lang/StrictMath(812)                                     |  public static int toIntExact(long value) {
+./java/lang/StrictMath(836)                                     |  public static int floorDiv(int x, int y) {
+./java/lang/StrictMath(860)                                     |  public static long floorDiv(long x, long y) {
+./java/lang/StrictMath(887)                                     |  public static int floorMod(int x, int y) {
+./java/lang/StrictMath(913)                                     |  public static long floorMod(long x, long y) {
+./java/lang/StrictMath(1610)                                    |  public static double nextDown(double d) {
+./java/lang/StrictMath(1639)                                    |  public static float nextDown(float f) {
+./java/lang/Float(128)                                          |  public static final int BYTES = SIZE / Byte.SIZE;
+./java/lang/Float(489)                                          |  public static boolean isFinite(float f) {
+./java/lang/Float(663)                                          |  public static int hashCode(float value) {
+./java/lang/Float(931)                                          |  public static float sum(float a, float b) {
+./java/lang/Float(945)                                          |  public static float max(float a, float b) {
+./java/lang/Float(959)                                          |  public static float min(float a, float b) {
+./java/lang/Short(410)                                          |  public static int hashCode(short value) {
+./java/lang/Short(479)                                          |  public static final int BYTES = SIZE / Byte.SIZE;
+./java/lang/Short(511)                                          |  public static int toUnsignedInt(short x) {
+./java/lang/Short(531)                                          |  public static long toUnsignedLong(short x) {
+./java/lang/Short(532)                                          |  return ((long) x) & 0xffffL;
+./java/lang/AbstractStringBuilder(441)                          |  AbstractStringBuilder append(AbstractStringBuilder asb) {

@@ -1,0 +1,1 @@
+./java/io/BufferedReader(561)                                   |  public Stream<String> lines() {
